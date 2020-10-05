@@ -1,68 +1,124 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Calculator
 
-## Available Scripts
+> A simple Calculator application built with React.
 
-In the project directory, you can run:
+## Animation
+<p align="center">
+  <img width="100%"  src="./src/img/calculator.png">
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- HTML,
+- CSS,
+- ReactJs,
+- JavaScript,
+- Heroku (for deployment),
+- Babel,
+- Big.js library,
+- prop-types library,
+- Chrome Dev Tools
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Live Demo Link](https://safa-calculator.herokuapp.com/)
 
-### `npm run build`
+## Setup
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-To use this app locally, 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[Download](https://github.com/SafaErden/IcyTower/archive/development.zip) or clone this repo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone with HTTPS:
+```
+https://github.com/SafaErden/IcyTower.git
+```
+- Clone with SHH:
+```
+git@github.com:SafaErden/IcyTower.git
+```
+- run 
+``` 
+npm install
+```
+ in the directory that you download the source.
 
-### `npm run eject`
+- run 
+```
+npm run start
+```
+to play the game locally.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Game Design
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Fugitive 
+<p>
+  <img   src="./src/assets/singledude.png">
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-Role: Escaping from the tower
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-Actions: Moving left, moving rigt, and jumping to climb the stairs.
 
-## Learn More
+### Stair
+<p>
+  <img   src="./src/assets/stair.JPG">
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Role: Moving down to prevent the fugitive to escape.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Actions: Moving faster as long as the fugitive reveals new stairs.
 
-### Code Splitting
+### ScoreBoard
+<p>
+  <img   src="./src/assets/score.JPG">
+</p>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+-Role: Showing the current gianed score depending on the number of revelaed stairs.
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Usage
 
-### Advanced Configuration
+-If you click on the Score Board button, you can view the highest 10 scores. To go back, you can click on the Menu button,
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+-To turn off/on the game music, you can visit the options,
 
-### Deployment
+-To play the game you need to type a valid name which has at least one character. Then you can clik on the play button to play the game,
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+-When youstart the game, the main purpose is to stay above the lowest point of the screen. You can move right and left by using the left and right buttons/arrows, 
 
-### `npm run build` fails to minify
+-To climb the tower you can use the up arrow/button,
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+-The more you climb, the faster steps move,
+
+-Each step you reveal is 10 points for you,
+
+-Good luck.
+
+
+## Author
+
+👤 **Safa ERDEN**
+
+- Github: [@SafaErden](https://github.com/SafaErden)
+- Twitter: [@safaerden](https://twitter.com/safaerden)
+- Linkedin: [SafaErden](https://www.linkedin.com/in/safaerden/)
+- Mql5: [safaerden](https://www.mql5.com/en/users/safaerden)
+- Email: [safaerden](mailto:safaerden@gmail.com)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/SafaErden/IcyTower/issues)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+This game is originated and inspired form the game named Ict Tower. You can get detailed information about the original game from [here](https://en.wikipedia.org/wiki/Icy_Tower).
