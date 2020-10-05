@@ -2,9 +2,9 @@
 
 > A simple Calculator application built with React.
 
-## Animation
+
 <p align="center">
-  <img width="100%"  src="./src/img/calculator.png">
+  <img width="70%"  src="./src/img/calculator.png">
 </p>
 
 
@@ -28,15 +28,15 @@
 
 -To use this app locally, 
 
-[Download](https://github.com/SafaErden/IcyTower/archive/development.zip) or clone this repo:
+[Download](https://github.com/SafaErden/React-Calculator/archive/milestone-1.zip) or clone this repo:
 
 - Clone with HTTPS:
 ```
-https://github.com/SafaErden/IcyTower.git
+https://github.com/SafaErden/React-Calculator.git
 ```
 - Clone with SHH:
 ```
-git@github.com:SafaErden/IcyTower.git
+git@github.com:SafaErden/React-Calculator.git
 ```
 - run 
 ``` 
@@ -46,58 +46,8 @@ npm install
 
 - run 
 ```
-npm run start
+npm start
 ```
-to play the game locally.
-
-## Game Design
-
-### Fugitive 
-<p>
-  <img   src="./src/assets/singledude.png">
-</p>
-
--Role: Escaping from the tower
-
--Actions: Moving left, moving rigt, and jumping to climb the stairs.
-
-### Stair
-<p>
-  <img   src="./src/assets/stair.JPG">
-</p>
-
--Role: Moving down to prevent the fugitive to escape.
-
--Actions: Moving faster as long as the fugitive reveals new stairs.
-
-### ScoreBoard
-<p>
-  <img   src="./src/assets/score.JPG">
-</p>
-
--Role: Showing the current gianed score depending on the number of revelaed stairs.
-
-
-
-
-## Usage
-
--If you click on the Score Board button, you can view the highest 10 scores. To go back, you can click on the Menu button,
-
--To turn off/on the game music, you can visit the options,
-
--To play the game you need to type a valid name which has at least one character. Then you can clik on the play button to play the game,
-
--When youstart the game, the main purpose is to stay above the lowest point of the screen. You can move right and left by using the left and right buttons/arrows, 
-
--To climb the tower you can use the up arrow/button,
-
--The more you climb, the faster steps move,
-
--Each step you reveal is 10 points for you,
-
--Good luck.
-
 
 ## Author
 
@@ -113,12 +63,8 @@ to play the game locally.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SafaErden/IcyTower/issues)
+Feel free to check the [issues page](https://github.com/SafaErden/React-Calculator/issues)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-This game is originated and inspired form the game named Ict Tower. You can get detailed information about the original game from [here](https://en.wikipedia.org/wiki/Icy_Tower).
