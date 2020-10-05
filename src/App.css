@@ -22,6 +22,13 @@ body {
 	box-sizing: border-box;
 	padding: 1.5rem;
 	color: #fff;
+	height: 100px;
+	font-weight: bold;
+}
+
+.groupButtons {
+	height: 100px;
+	display: flex;
 }
 
 .button {
@@ -29,19 +36,16 @@ body {
 	background-color: #858693;
 	font-size: 1.5rem;
 	box-sizing: border-box;
-	padding: 2rem;
+	height: 100%;
 	color: #000;
 	border: 0.1rem solid #bababa;
+	background-color: #f39148;
 }
 
 .gray {
 	background-color: #e0e0e0;
 }
 
-.orange {
-	background-color: #f39148;
-}
-
-.fifty{
-  width:50%;
+.fifty {
+	width: 50%;
 }
