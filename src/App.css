@@ -1,3 +1,47 @@
-.App {
-  text-align: center;
+body {
+	display: flex;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+}
+.app {
+	text-align: center;
+	background-color: aquamarine;
+	width: 700px;
+	display: flex;
+	flex-direction: column;
+}
+
+.display {
+	width: 100%;
+	text-align: right;
+	background-color: #858693;
+	font-size: 2.5rem;
+	box-sizing: border-box;
+	padding: 1.5rem;
+	color: #fff;
+}
+
+.button {
+	width: 25%;
+	background-color: #858693;
+	font-size: 1.5rem;
+	box-sizing: border-box;
+	padding: 2rem;
+	color: #000;
+	border: 0.1rem solid #bababa;
+}
+
+.gray {
+	background-color: #e0e0e0;
+}
+
+.orange {
+	background-color: #f39148;
+}
+
+.fifty{
+  width:50%;
 }
