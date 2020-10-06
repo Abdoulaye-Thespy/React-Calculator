@@ -11,17 +11,19 @@ export default class App extends React.Component {
 			total: null,
 			next: null,
 			operation: null
-    };
-    this.handleClick = this.handleClick.bind(this);
+		};
+		this.handleClick = this.handleClick.bind(this);
 	}
 	handleClick(buttonName) {
-		this.state = calculate(this.state, buttonName);
+		this.setState((data) => calculate(data, buttonName));
 	}
 	render() {
+		const { total, next, operation } = this.state;
+		const result = next || total || '0';
 		return (
 			<div className="app" id="app">
-				<Display result={this.state.next} />
-				<ButtonPanel clickHandler={this.handleClick} />
+				<Display result={result.toString()} operation={operation} />
+				<ButtonPanel handleClick={this.handleClick} />
 			</div>
 		);
 	}
