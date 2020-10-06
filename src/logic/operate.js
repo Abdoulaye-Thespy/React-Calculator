@@ -11,10 +11,12 @@ const operate = (numberOne, numberTwo, operation) => {
     case 'x':
       return one.times(two).toString();
     case '÷':
-      if (two !== 0) {
-        return one.div(two).toString();
-      }
-      return undefined;
+      /*eslint-disable */
+			if (two != 0) {
+				return one.div(two).toString();
+			}
+			return 0;
+		/* eslint-enable */
     default:
       return 0;
   }
