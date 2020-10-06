@@ -22,7 +22,7 @@ function calculate(calculatorData, buttonName) {
     if (total && next && operation) {
       total = operate(total, next, operation);
       next = null;
-      operation = null;
+      operation = "=";
     }
   } else if (buttonName === '.') {
     if (next) {

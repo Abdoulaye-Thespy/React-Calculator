@@ -15,6 +15,16 @@ export default class App extends React.Component {
 		this.handleClick = this.handleClick.bind(this);
 	}
 	handleClick(buttonName) {
+    if(this.state.operation == "="){
+      this.setState(
+        {
+          total: null,
+          next: null,
+          operation: null
+        }
+      );
+    } 
+    console.log(this.state.operation);
 		this.setState((data) => calculate(data, buttonName));
 	}
 	render() {
