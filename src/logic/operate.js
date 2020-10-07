@@ -1,6 +1,9 @@
 const Big = require('big.js');
 
 const operate = (numberOne, numberTwo, operation) => {
+  if (numberOne === 'NaN' || numberTwo === 'NaN') {
+    return 'NaN';
+  }
   const one = new Big(numberOne);
   const two = new Big(numberTwo);
   switch (operation) {
@@ -11,10 +14,11 @@ const operate = (numberOne, numberTwo, operation) => {
     case 'x':
       return one.times(two).toString();
     case '÷':
-      if (two !== 0) {
+      try {
         return one.div(two).toString();
+      } catch (error) {
+        return 'NaN';
       }
-      return undefined;
     default:
       return 0;
   }
